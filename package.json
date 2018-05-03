@@ -1,0 +1,33 @@
+{
+  "name": "graphql-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higordiego/graphql-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higordiego/graphql-sequelize/issues"
+  },
+  "homepage": "https://github.com/higordiego/graphql-sequelize#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.1.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.1",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.2.1",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.13.5"
+  }
+}
