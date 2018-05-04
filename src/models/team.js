@@ -11,6 +11,7 @@ export default (sequelize, DataTypes) => {
         through: 'member',
         foreignKey: 'teamId',
       });
+      
       Team.belongsTo(models.User, {
         foreignKey: 'owner',
       });

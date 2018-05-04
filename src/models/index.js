@@ -1,9 +1,6 @@
 import Sequelize from 'sequelize';
 
-const sequelize = new Sequelize(
-  'graphql',
-  'root',
-  '',
+const sequelize = new Sequelize('graphql', 'root', '',
   {
     host: 'localhost',
     dialect: 'mysql',
